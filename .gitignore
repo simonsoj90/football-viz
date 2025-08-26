@@ -1,0 +1,15 @@
+# data
+data/raw/
+data/processed/
+
+# python
+__pycache__/
+*.pyc
+
+# notebooks
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

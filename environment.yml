@@ -1,0 +1,21 @@
+name: football-viz
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - pip
+  - pip:
+      - mplsoccer
+      - kloppy
+      - polars
+      - tqdm
+      - ruff
+      - black
+      - pre-commit
+      - nbstripout
